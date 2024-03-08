@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poulet Game</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* border: 1px solid red; */
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .container{
+        background: #5b7ff7;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header {
+        background: #040027;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        width: 100px;
+        margin: 5px;
+        list-style: none;
+    }
+
+    nav ul li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background: #0f028a;
+        color: #fcfcfc;
+        border-radius: 5px;
+    }
+
+    nav ul li a:hover {
+        background: #f88e02;
+        color: #212121;
+    }
+
+    main section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    #auhtors {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: calc(20%);
+        width: 100vw;
+        height: 90vh;
+        font-size: 52px;
+        text-align: left;
+    }
+
+    #btn-play{
+        margin-top: 40px;
+        padding: 20px;
+        color: #040027;
+        background: #f88e02;
+        font-size: 28px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #btn-play:hover {
+        background: #02c202;
+        color: #fcfcfc;
+    }
+</style>
+<body>
+    <div class="container">
+        <header>
+            <div id="logo-container">
+                <img src="" alt="logo not found" id="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="../html/card.html">Autheurs</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="home">
+                <p>C'est un site de Jeu de Quizz </p>
+                <p>Créé par les étudiants de MISA</p>
+                <p>Promotion 2026</p>
+                <a id="btn-play" href="./corps.html">Play Game</a>
+            </section>
+            <section id="play">
+                
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>

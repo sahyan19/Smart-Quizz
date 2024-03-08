@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background: #5b7ff7;
+}
+
+header {
+    background: #040027;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    margin: 5px;
+    padding: 10px;
+    background: #0f028a;
+    color: #fcfcfc;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #f88e02;
+    color: #212121;
+}
+
+
+#authors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#authors > div > p{
+    font-size: 32px;
+}
+
+#authors-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #040027;
+    border-radius: 5px;
+    color: #fcfcfc;
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card > p{
+    background: #f88e02;
+    width: 160px;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 1px;
+}
+
+.card div {
+    width: 160px;
+    height: 180px;
+}
+
+#authors {
+    display: flex;
+}
+
+#authors > p{
+    margin-top: 60px;
+    font-size: 32px;
+}
+
+#authors-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #040027;
+    border-radius: 5px;
+    color: #fcfcfc;
+    width: 180px;
+    height: 210px;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card p{
+    background: #f88e02;
+    width: calc(100% - 40px);
+    text-align: center;
+    color: #212121;
+    margin-bottom: 20px;
+    border-radius: 1px;
+}
+
+.card img {
+    width: 160px;
+    height: 180px;
+}
+</style>
+<body>
+    <div class="container">
+    <header>
+        <div id="logo-container">
+            <img src="" alt="logo not found" id="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./corps.html">Play</a></li>
+                <li><a href="">Authors</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="authors">
+        <p>There are the contributors for this project :</p>
+        <div id="authors-container">
+            <div class="card">
+                <p>Big Mama</p>
+                <div>
+                    <img src="../img/bing.png" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <p>Elektra</p>
+                <div>
+                    <img src="../img/elektra.png" alt="">
+                </div>
+            </div>
+            
+            <div class="card">
+                <p>Binaire</p>
+                <div>
+                    <img src="../img/binaire.png" alt="">
+                </div>
+            </div>
+
+            <div class="card">
+                <p>Moglette</p>
+                <div>
+                    <img src="../img/moglette.png" alt="">
+                </div>
+            </div>
+            
+            <div class="card">
+                <p>Madama Be</p>
+                <div>
+                    <img src="../img/madamabe.png" alt="">
+                </div>
+            </div>
+            
+            <div class="card">
+                <p>Mooc Exam</p>
+                <div>
+                    <img src="../img/mook.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
