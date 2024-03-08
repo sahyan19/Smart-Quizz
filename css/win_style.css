@@ -1,0 +1,48 @@
+body
+{
+    
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.score
+{
+    background-image: url(../img/background_pic.jpeg);
+    border: 5px;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+}
+#congrat
+{
+    display: flex;
+    padding-top: 5%;
+    font-size: xx-large;
+    color: rgb(216, 164, 23);
+    font-style: italic;
+}
+.cup
+{
+    width: 20%;
+    height: 20%;
+}
+.quizz_type
+{
+    font-size: xx-large;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-style: italic;
+    color: red;
+}
+#score
+{
+    padding: 10px;
+    border: 2px;
+    color: whitesmoke;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(78, 67, 67);
+    border-radius: 20px;
+    width: 4cm;
+    height: 1.2cm;
+}

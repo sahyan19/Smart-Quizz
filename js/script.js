@@ -216,7 +216,7 @@ nextButton.addEventListener("click", ()=> {
                             <div>
                                 <ul>
                                     <li><a href="./corps.html" class="button_1">Rejouer</a></li>
-                                    <li><a href="./index.html" class="button_2">Menu principale</a></li>
+                                    <li><a href="../index.html" class="button_2">Menu principale</a></li>
                                 </ul>
                             </div>
                         </div>

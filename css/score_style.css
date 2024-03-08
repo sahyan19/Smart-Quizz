@@ -1,0 +1,49 @@
+body
+{
+    text-align: center;
+    background-image: url(background_pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#score_head
+{
+    border: 2px;
+    color: blueviolet;
+    font-size: xx-large;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stats
+{
+    font-size: 15pt;
+    font-style: italic;
+    font: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#bouton
+{
+    background-color: rgb(78, 67, 67);
+    border-radius: 20px;
+    width: 4cm;
+    height: 1cm;
+}
+#text_button
+{
+    font-style: italic;
+    color: aliceblue;
+}
+#fleche
+{
+    color: aliceblue;
+    font-size: large;
+    font: bolder;
+    padding-left: 0.3cm;
+}
+#padding
+{
+    padding: 0.5cm;
+}
+
