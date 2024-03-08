@@ -3,6 +3,8 @@
 # Description
 Smart-Quiz offers a fun and educational Quiz experience with an intuitive user interface.
 It's a game created by L3 MISA students promotion 2026.
+# Lien 
+[Smart-quiz]("https://smart-quizz.netlify.app/")
 
 # Fonctionnality
 - This game aims to improve our general knowledge. 
